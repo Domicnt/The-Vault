@@ -1,0 +1,20 @@
+body {
+    padding-top: 4%;
+    background-color: #669;
+}
+
+h1 {
+    width: 75%;
+    font-family: 'Josefin Slab';
+    font-size: 400%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    width: 75%;
+    font-family: 'Josefin Slab';
+    font-size: 200%;
+    margin: auto;
+    text-align: center;
+}
