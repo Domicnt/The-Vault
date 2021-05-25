@@ -6,13 +6,13 @@ let t4 = document.getElementById('#4');
 let t5 = document.getElementById('#5');
 
 function check () {
-    if (t1.value.toLowerCase() == "deadlines" && 
-            t1.value.toLowerCase() == "mean" && 
-            t1.value.toLowerCase() == "nothing" && 
-            t1.value.toLowerCase() == "you" && 
-            t1.value.toLowerCase() == "fools") {
+    if (t1.value.toLowerCase().replace(/\s+/g, '') == "deadlines" && 
+            t2.value.toLowerCase().replace(/\s+/g, '') == "mean" && 
+            t3.value.toLowerCase().replace(/\s+/g, '') == "nothing" && 
+            t4.value.toLowerCase().replace(/\s+/g, '') == "you" && 
+            t5.value.toLowerCase().replace(/\s+/g, '') == "fools") {
         window.location.href = "http://www.w3schools.com";
-    } else {
-        console.log(t1.value);
     }
 }
+
+setInterval(check, 1000);
