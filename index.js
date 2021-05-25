@@ -11,7 +11,7 @@ function check () {
             t3.value.toLowerCase().replace(/\s+/g, '') == "nothing" && 
             t4.value.toLowerCase().replace(/\s+/g, '') == "you" && 
             t5.value.toLowerCase().replace(/\s+/g, '') == "fools") {
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = window.location.href.replace("/index.html", "") + "/vault.html";
     }
 }
 
