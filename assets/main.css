@@ -1,6 +1,10 @@
 body {
     padding-top: 4%;
-    background-color: #669;
+    background-image: url('pentagon.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 65%;
+    background-size: 52.2% 90%; 
 }
 
 h1 {
